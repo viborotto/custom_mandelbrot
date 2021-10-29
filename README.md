@@ -7,8 +7,8 @@ link web: https://viborotto.github.io/custom_mandelbrot/
 
 ### Autores:    
 
-🧑  *Felipe Moreira Temoteo da Silva*   RA: 11201811314 
-👩  *Vittoria Ariel dos Santos Borotto* RA: 11201811288    
+🧑  *Felipe Moreira Temoteo da Silva*   RA: 11201811314 <BR>
+👩  *Vittoria Ariel dos Santos Borotto* RA: 11201811288   <BR> 
 
 **Conceitos utilizados durante a atividade 1** 💻:
 
