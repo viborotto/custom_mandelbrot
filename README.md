@@ -3,6 +3,12 @@
 
 link web: https://viborotto.github.io/custom_mandelbrot/
 
+
+### Autores:    
+
+🧑  *Felipe Moreira Temoteo da Silva*   RA: 11201811314 <BR>
+👩  *Vittoria Ariel dos Santos Borotto* RA: 11201811288   <BR> 
+	
 ### O que é MandelBrot ?  
 ##### Um pouco de história:
 A resposta viria do próprio Mandelbrot começou a estudar uma equação muito curiosa e estranhamente simples que poderia ser usada para desenhar uma forma bastante incomum: Conjunto Mandelbrot		
@@ -12,16 +18,8 @@ Cada forma dentro do conjunto contém um número de formas menores, que contêm 
 Uma das coisas mais surpreendentes sobre o conjunto de Mandelbrot é que, em teoria, ele continuaria criando infinitamente novos padrões a partir da estrutura original, o que demonstra que algo poderia ser ampliado para sempre.
 
 No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
-Se reescrevermos a sequência em termos das partes real e imaginária (coordenadas x e y do plano complexo), a cada iteração n, substituindo zn pelo ponto xn + yni e c pelo ponto a + bi, temos:
-
-{\displaystyle x_{n+1}={x_{n}}^{2}-{y_{n}}^{2}+a\,}x_{{n+1}}={x_{n}}^{2}-{y_{n}}^{2}+a\, e
-{\displaystyle y_{n+1}=2{x_{n}}{y_{n}}+b\,}y_{{n+1}}=2{x_{n}}{y_{n}}+b\,
-
-### Autores:    
-
-🧑  *Felipe Moreira Temoteo da Silva*   RA: 11201811314 <BR>
-👩  *Vittoria Ariel dos Santos Borotto* RA: 11201811288   <BR> 
-
+<img width="111" alt="Screen Shot 2021-10-29 at 20 27 56" src="https://user-images.githubusercontent.com/50744121/139511177-91601469-6194-48b3-a2e6-b1ca7b6b9cf6.png"> <BR>
+	
 **Conceitos utilizados durante a atividade 1** 💻:
 
 - Representação vetorial no OpenGL (GLTRIANGLES) <BR>
@@ -48,3 +46,6 @@ A aplicação desenvolvida consiste em uma navegação interativa com um set de 
     -  Letra N: diminui o número de iterações máximas 
     -  Letra M: aumenta o número de iterações máximas (aumenta a quantidade de detalhes na imagem) 
     -  Letra R: reseta do mandelbrot
+	
+#### Para mais informaçōes sobre o MandelBrot:  
+https://pt.mathigon.org/course/fractals/mandelbrot
