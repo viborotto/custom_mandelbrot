@@ -10,7 +10,6 @@ link web: https://viborotto.github.io/custom_mandelbrot/
 👩  *Vittoria Ariel dos Santos Borotto* RA: 11201811288   <BR> 
 	
 ### O que é MandelBrot ?  
-##### Um pouco de história:
 A resposta viria do próprio Mandelbrot começou a estudar uma equação muito curiosa e estranhamente simples que poderia ser usada para desenhar uma forma bastante incomum: Conjunto Mandelbrot		
 <img width="637" alt="Screen Shot 2021-10-29 at 20 21 56" src="https://user-images.githubusercontent.com/50744121/139510897-e9b81e07-7c53-4413-8bf1-f9790f2bd787.png">		<BR>
 Cada forma dentro do conjunto contém um número de formas menores, que contêm um número de outras formas ainda menores... e, assim por diante, sem fim.
