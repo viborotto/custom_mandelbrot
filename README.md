@@ -35,7 +35,7 @@ No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
 A aplicação desenvolvida consiste em uma navegação interativa com um set de Mandelbrot, fractais que são recalculados a cada interação do teclado por contas com números imaginários que geram lindas imagens.
 
 #### Interação com Mandelbrot: 
-<a href=""><img align="left" width="660" src="https://github.com/viborotto/custom_mandelbrot/blob/main/mandelbrotAt1.gif"></a> 
+<a href=""><img align="left" width="550" src="https://github.com/viborotto/custom_mandelbrot/blob/main/mandelbrotAt1.gif"></a> 
 	<BR>				
 1. Abra a aplicação por meio do link https://viborotto.github.io/custom_mandelbrot/ 
 2. Para interagir aperte as seguintes teclas: 
