@@ -1,6 +1,5 @@
 #version 410
 
-
 uniform vec2 area_w;
 uniform vec2 area_h;
 uniform uint max_iterations;
@@ -31,7 +30,7 @@ void main()
     float rect_width = 900.0;
     float rect_height = 700.0;
 
-   vec2 C = vec2(gl_FragCoord.x * (area_w.x - area_w.y) / rect_width  + area_w.y,
+    vec2 C = vec2(gl_FragCoord.x * (area_w.x - area_w.y) / rect_width  + area_w.y,
                         gl_FragCoord.y * (area_h.x - area_h.y) / rect_height + area_h.y);
     vec2 Z = vec2(0.0);
     uint iteration = 0u;

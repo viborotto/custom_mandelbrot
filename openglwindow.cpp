@@ -10,13 +10,13 @@ void OpenGLWindow::handleEvent(SDL_Event &event) {
     double scale_per;
     if (event.type == SDL_KEYDOWN) {
         scale_per = 0.1F * mandelbrotData.scale;
-        if (event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_f)
+        if (event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_w)
             mandelbrotData.y += scale_per;
-        if (event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_v)
+        if (event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_s)
             mandelbrotData.y -= scale_per;
-        if (event.key.keysym.sym == SDLK_LEFT || event.key.keysym.sym == SDLK_c)
+        if (event.key.keysym.sym == SDLK_LEFT || event.key.keysym.sym == SDLK_a)
             mandelbrotData.x -= scale_per;
-        if (event.key.keysym.sym == SDLK_RIGHT || event.key.keysym.sym == SDLK_b)
+        if (event.key.keysym.sym == SDLK_RIGHT || event.key.keysym.sym == SDLK_d)
             mandelbrotData.x += scale_per;
         if (event.key.keysym.sym == SDLK_n)
             if (mandelbrotData.max_iterations > 30) --mandelbrotData.max_iterations;
@@ -24,7 +24,7 @@ void OpenGLWindow::handleEvent(SDL_Event &event) {
             ++mandelbrotData.max_iterations;
         if (event.key.keysym.sym == SDLK_r)
             mandelbrotData = {1.0F, 0.0F, 0.0F, 30};
-        if (event.key.keysym.sym == SDLK_SPACE) {
+        if (event.key.keysym.sym == SDLK_z) {
             mandelbrotData.scale -= scale_per;
             ++mandelbrotData.max_iterations;
 		}
@@ -70,11 +70,11 @@ void OpenGLWindow::paintGL() {
         
     glUniform2f(areaWLoc, -2.0F * mandelbrotData.scale + mandelbrotData.x,
         1.0F * mandelbrotData.scale + mandelbrotData.x);
-    glUniform2f(areaHLoc, -2.0F * mandelbrotData.scale + mandelbrotData.y,
+    glUniform2f(areaHLoc, -1.0F * mandelbrotData.scale + mandelbrotData.y,
         1.0F * mandelbrotData.scale + mandelbrotData.y);
     glUniform1ui(maxItLoc, mandelbrotData.max_iterations); 
 
-    glDrawArrays(GL_TRIANGLES, 0, 8);
+    glDrawArrays(GL_TRIANGLES, 0, 6);
     glBindVertexArray(0);
 
     glBindVertexArray(0);
@@ -85,7 +85,7 @@ void OpenGLWindow::setupModel() {
 
     constexpr GLfloat m_P[]{
 
-             -1.0F, -1.0F, 0.0F,
+            -1.0F, -1.0F, 0.0F,
 
              1.0F, -1.0F, 0.0F,
 

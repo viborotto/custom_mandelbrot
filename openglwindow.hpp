@@ -24,7 +24,7 @@ class OpenGLWindow : public abcg::OpenGLWindow {
         unsigned max_iterations;
     };
 
-    MandelbrotData mandelbrotData{1.0F, 0.2F, 0.31F, 30};
+    MandelbrotData mandelbrotData{1.0F, 0.0F, 0.0F, 30};
 
     void setupModel();
 };
