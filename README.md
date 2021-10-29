@@ -11,7 +11,7 @@ link web: https://viborotto.github.io/custom_mandelbrot/
 	
 ### O que é MandelBrot ?  
 A resposta viria do próprio Mandelbrot começou a estudar uma equação muito curiosa e estranhamente simples que poderia ser usada para desenhar uma forma bastante incomum: Conjunto Mandelbrot		
-<img width="537" align="middle" alt="Screen Shot 2021-10-29 at 20 21 56" src="https://user-images.githubusercontent.com/50744121/139510897-e9b81e07-7c53-4413-8bf1-f9790f2bd787.png"><p>
+<img width="537" align="center" alt="Screen Shot 2021-10-29 at 20 21 56" src="https://user-images.githubusercontent.com/50744121/139510897-e9b81e07-7c53-4413-8bf1-f9790f2bd787.png"><p>
     <em>Imagem demonstrativa do conceito mandelbrot</em>
 </p>		<BR>
 Cada forma dentro do conjunto contém um número de formas menores, que contêm um número de outras formas ainda menores... e, assim por diante, sem fim.
@@ -35,7 +35,7 @@ No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
 A aplicação desenvolvida consiste em uma navegação interativa com um set de Mandelbrot, fractais que são recalculados a cada interação do teclado por contas com números imaginários que geram lindas imagens.
 
 #### Interação com Mandelbrot: 
-
+<a href=""><img align="left" width="250" height="250" src="https://github.com/viborotto/custom_mandelbrot/blob/main/mandelbrotAt1.gif"></a>
 1. Abra a aplicação por meio do link https://viborotto.github.io/custom_mandelbrot/ 
 2. Para interagir aperte as seguintes teclas: 
     -  Seta para cima ou F: navegue para a parte inferior do mandelbrot
