@@ -1,9 +1,21 @@
-# custom_mandelbrot
+# custom_mandelbrot 
+## Atividade 1 de Computação Gráfica: desenvolvimento de uma aplicação gráfica interativa com gráficos 2D. 
 
 link web: https://viborotto.github.io/custom_mandelbrot/
 
-### O que é MandelBrot    
+### O que é MandelBrot ?  
+##### Um pouco de história:
+A resposta viria do próprio Mandelbrot começou a estudar uma equação muito curiosa e estranhamente simples que poderia ser usada para desenhar uma forma bastante incomum: Conjunto Mandelbrot		
+<img width="637" alt="Screen Shot 2021-10-29 at 20 21 56" src="https://user-images.githubusercontent.com/50744121/139510897-e9b81e07-7c53-4413-8bf1-f9790f2bd787.png">		
+Cada forma dentro do conjunto contém um número de formas menores, que contêm um número de outras formas ainda menores... e, assim por diante, sem fim.
 
+Uma das coisas mais surpreendentes sobre o conjunto de Mandelbrot é que, em teoria, ele continuaria criando infinitamente novos padrões a partir da estrutura original, o que demonstra que algo poderia ser ampliado para sempre.
+
+No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
+Se reescrevermos a sequência em termos das partes real e imaginária (coordenadas x e y do plano complexo), a cada iteração n, substituindo zn pelo ponto xn + yni e c pelo ponto a + bi, temos:
+
+{\displaystyle x_{n+1}={x_{n}}^{2}-{y_{n}}^{2}+a\,}x_{{n+1}}={x_{n}}^{2}-{y_{n}}^{2}+a\, e
+{\displaystyle y_{n+1}=2{x_{n}}{y_{n}}+b\,}y_{{n+1}}=2{x_{n}}{y_{n}}+b\,
 
 ### Autores:    
 
