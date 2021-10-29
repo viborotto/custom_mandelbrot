@@ -1,5 +1,5 @@
 # custom_mandelbrot 
-## Atividade 1 de Computação Gráfica: desenvolvimento de uma aplicação gráfica interativa com gráficos 2D. 
+## Atividade 1 de Computação Gráfica: desenvolvimento de uma aplicação gráfica interativa com gráficos 2D
 
 link web: https://viborotto.github.io/custom_mandelbrot/
 
@@ -11,7 +11,9 @@ link web: https://viborotto.github.io/custom_mandelbrot/
 	
 ### O que é MandelBrot ?  
 A resposta viria do próprio Mandelbrot começou a estudar uma equação muito curiosa e estranhamente simples que poderia ser usada para desenhar uma forma bastante incomum: Conjunto Mandelbrot		
-<img width="637" alt="Screen Shot 2021-10-29 at 20 21 56" src="https://user-images.githubusercontent.com/50744121/139510897-e9b81e07-7c53-4413-8bf1-f9790f2bd787.png">		<BR>
+<img width="637" alt="Screen Shot 2021-10-29 at 20 21 56" src="https://user-images.githubusercontent.com/50744121/139510897-e9b81e07-7c53-4413-8bf1-f9790f2bd787.png"><p>
+    <em>image_caption</em>
+</p>		<BR>
 Cada forma dentro do conjunto contém um número de formas menores, que contêm um número de outras formas ainda menores... e, assim por diante, sem fim.
 
 Uma das coisas mais surpreendentes sobre o conjunto de Mandelbrot é que, em teoria, ele continuaria criando infinitamente novos padrões a partir da estrutura original, o que demonstra que algo poderia ser ampliado para sempre.
