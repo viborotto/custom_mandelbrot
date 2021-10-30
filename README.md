@@ -39,11 +39,11 @@ A aplicação desenvolvida consiste em uma navegação interativa com um set de 
 	<BR>				
 1. Abra a aplicação por meio do link https://viborotto.github.io/custom_mandelbrot/ 
 2. Para interagir aperte as seguintes teclas: 
-    -  Seta para cima ou F: navegue para a parte inferior do mandelbrot
-    -  Seta para baixo ou V: navegue para a parte superior do mandelbrot
-    -  Seta para a esquerda ou B: navegue para a direita do mandelbrot
-    -  Seta para a direta ou C: navegue para a esquerda do mandelbrot
-    -  Tecla SPACE: de zoom do mandelbrot (teste se aprofundar no set para ver partes diferentes do fractal!) 
+    -  Seta para cima ou F: navegue para a parte superior do mandelbrot
+    -  Seta para baixo ou V: navegue para a parte inferior do mandelbrot
+    -  Seta para a direta ou B: navegue para a direita do mandelbrot
+    -  Seta para a esquerda ou C: navegue para a esquerda do mandelbrot
+    -  Tecla Z: de zoom do mandelbrot (teste se aprofundar no set para ver partes diferentes do fractal!) 
     -  Letra X: zoom out do mandelbrot (você pode utilizar também o scroll do mouse para dar zoom in e zoom out) 
     -  Letra N: diminui o número de iterações máximas 
     -  Letra M: aumenta o número de iterações máximas (aumenta a quantidade de detalhes na imagem) 
