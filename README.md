@@ -31,7 +31,7 @@ No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
 	◼️ Dispositivos de entrada: temos como exemplo as setas e as letras F,V,B,C que ao utilizar um deles você interage com o programa navegando pelo espaço 2D do set.<BR>
 	◼️ Dispositivos de saída: Toda interação com a atividade, reflete em mudanças que são exibidas no monitor do usuário.<BR>
 	◼️ Processadores: Para os diversos processamentos do set se faz necessário o uso de CPU's,GPU's e seus subsistemas.<BR>
-- Framebuffer
+- Framebuffer <BR>
 	◼️
 - Ray casting ou rasterização(?) <BR>
 	◼️
