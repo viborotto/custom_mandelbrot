@@ -32,13 +32,13 @@ No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
 	◼️ Dispositivos de saída: Toda interação com a atividade, reflete em mudanças que são exibidas no monitor do usuário.<BR>
 	◼️ Processadores: Para os diversos processamentos do set se faz necessário o uso de CPU's,GPU's e seus subsistemas.<BR>
 - Framebuffer <BR>
-	◼️
-- Ray casting ou rasterização(?) <BR>
-	◼️
+	◼️ Frame Buffer é uma memória especializada em armazenar e transferir para a tela do computador dados de um quadro de imagem. As informações armazenadas nesta memória consistem basicamente em valores cromáticos para cada pixel e suas transparências. Quanto maior a resolução da imagem retratada maior será a memória necessária para o frame Buffer armazenar as imagens.<BR>
+- Rasterização <BR>
+	◼️ Compreende a conversão matricial das primitivas. O resultado é um conjunto de amostras de primitivas. Durante o processamento no pipeline, o termo fragmento é frequentemente utilizado para designar essas amostras no lugar de pixel. Cada fragmento é uma coleção de valores que inclui atributos interpolados a partir dos vértices e a posição (x,y,z)da amostra em coordenadas da janela (o valor z é considerado a “profundidade” do fragmento). <BR>
 - Vertex shader <BR>
-	◼️
+	◼️ O vertex shader é uma função gráfica responsável por adicionar efeitos especiais a objetos em ambientes 3D, conforme executa operações matemáticas sobre cada vértice formador da imagem. Cada vértice é então definido em diversas variáveis, sendo basicamente descrito pelo seu posicionamento no espaço tridimensional. O vertex shader processa cada vértice individualmente. Entretanto, esse processamento é paralelizado de forma massiva na GPU. Cada execução de um vertex shader acessa apenas os atributos do vértice que está sendo processado. Não há como compartilhar o estado do processamento de um vértice com os demais vértices.<BR>
 - Fragment shader <BR>
-	◼️
+	◼️ O fragment shader é um programa que processa cada fragmento individualmente após a rasterização. A entrada do fragment shader é o mesmo conjunto de atributos definidos pelo usuário na saída do vertex shader.
 - VBO <BR>
 	◼️
 	
