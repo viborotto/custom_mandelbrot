@@ -31,7 +31,17 @@ No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
 	◼️ Dispositivos de entrada: temos como exemplo as setas e as letras F,V,B,C que ao utilizar um deles você interage com o programa navegando pelo espaço 2D do set.<BR>
 	◼️ Dispositivos de saída: Toda interação com a atividade, reflete em mudanças que são exibidas no monitor do usuário.<BR>
 	◼️ Processadores: Para os diversos processamentos do set se faz necessário o uso de CPU's,GPU's e seus subsistemas.<BR>
-
+- Framebuffer
+	◼️
+- Ray casting ou rasterização(?) <BR>
+	◼️
+- Vertex shader <BR>
+	◼️
+- Fragment shader <BR>
+	◼️
+- VBO <BR>
+	◼️
+	
 A aplicação desenvolvida consiste em uma navegação interativa com um set de Mandelbrot, fractais que são recalculados a cada interação do teclado por contas com números imaginários que geram lindas imagens.
 
 #### Interação com Mandelbrot: 
