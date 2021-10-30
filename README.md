@@ -26,7 +26,7 @@ No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
 - Representação vetorial no OpenGL (GLTRIANGLES) <BR>
 	◼️ A representação vetorial é usada para definir a geometria que será usada processada durante toda a renderização, e pode ser vista na formação das primitivas que compõem o set MandelBrot. <BR>
 	
-- Dispositivos de E/S 🖱️ ⌨️(Teclado,mouse e monitor): <BR>
+- Dispositivos de E/S(Teclado,mouse e monitor): <BR>
 	◼️ Durante a atividade foram utilizados os conceitos de Dispositivos de entrada e saída. <BR>
 	◼️ Dispositivos de entrada: temos como exemplo as setas e as letras F,V,B,C que ao utilizar um deles você interage com o programa navegando pelo espaço 2D do set.<BR>
 	◼️ Dispositivos de saída: Toda interação com a atividade, reflete em mudanças que são exibidas no monitor do usuário.<BR>
@@ -40,7 +40,7 @@ No entanto, toda essa complexidade vem de uma equação incrivelmente simples:
 - Fragment shader <BR>
 	◼️ O fragment shader é um programa que processa cada fragmento individualmente após a rasterização. A entrada do fragment shader é o mesmo conjunto de atributos definidos pelo usuário na saída do vertex shader.
 - VBO <BR>
-	◼️
+	◼️ O Vertex buffer object (VBO) permite que arrays de vértices sejam armazenados na memória gráfica de alta performance do lado do servidor e promove transferência eficiência de dados.<BR>
 	
 A aplicação desenvolvida consiste em uma navegação interativa com um set de Mandelbrot, fractais que são recalculados a cada interação do teclado por contas com números imaginários que geram lindas imagens.
 
