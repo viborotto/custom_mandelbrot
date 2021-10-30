@@ -10,13 +10,15 @@ void OpenGLWindow::handleEvent(SDL_Event &event) {
     double scale_per;
     if (event.type == SDL_KEYDOWN) {
         scale_per = 0.1F * mandelbrotData.scale;
-        if (event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_w)
+        if (event.type == SDL_KEYDOWN) {
+        scale_per = 0.1F * mandelbrotData.scale;
+        if (event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_v)
             mandelbrotData.y += scale_per;
-        if (event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_s)
+        if (event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_f)
             mandelbrotData.y -= scale_per;
-        if (event.key.keysym.sym == SDLK_LEFT || event.key.keysym.sym == SDLK_a)
+        if (event.key.keysym.sym == SDLK_RIGHT || event.key.keysym.sym == SDLK_b)
             mandelbrotData.x -= scale_per;
-        if (event.key.keysym.sym == SDLK_RIGHT || event.key.keysym.sym == SDLK_d)
+        if (event.key.keysym.sym == SDLK_LEFT || event.key.keysym.sym == SDLK_c)
             mandelbrotData.x += scale_per;
         if (event.key.keysym.sym == SDLK_n)
             if (mandelbrotData.max_iterations > 30) --mandelbrotData.max_iterations;
@@ -28,7 +30,7 @@ void OpenGLWindow::handleEvent(SDL_Event &event) {
             mandelbrotData.scale -= scale_per;
             ++mandelbrotData.max_iterations;
 		}
-        if (event.key.keysym.sym == SDLK_x) {
+        if (event.key.keysym.sym == SDLK_x) {cus
             mandelbrotData.scale += scale_per;
             if (mandelbrotData.max_iterations > 30) --mandelbrotData.max_iterations;
 		}
